@@ -78,11 +78,10 @@ export function SignIn() {
               placeholder="name@mail.com or username"
               className="!border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
-                className: "before:content-none after:content-none",
+              className: "before:content-none after:content-none",
               }}
               value={emailOrUsername}
               onChange={(e) => setEmailOrUsername(e.target.value)}
-              required
             />
             <Typography
               variant="small"
@@ -100,8 +99,7 @@ export function SignIn() {
                 className: "before:content-none after:content-none",
               }}
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
+              onChange={(e) => setPassword(e.target.value)}            
             />
           </div>
           <Button 

@@ -142,15 +142,15 @@ export function Home() {
                       </td>
                       <td className={`${className}`}>
                       <div className="flex items-center justify-center min-h-[56px]">
-    <Tooltip content={companies}>
-      <Avatar
-        src={companies}
-        alt={companies}
-        size="sm"
-        variant="circular"
-        className="cursor-pointer border-2 border-white"
-      />
-    </Tooltip>
+        <Tooltip content={companies}>
+          <Avatar
+            src={companies}
+            alt={companies}
+            size="sm"
+            variant="circular"
+            className="cursor-pointer border-2 border-white"
+          />
+        </Tooltip>
   </div>
 </td>
                       <td className={className}>

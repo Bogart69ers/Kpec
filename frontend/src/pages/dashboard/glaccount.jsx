@@ -15,7 +15,7 @@ import { authorsTableData } from "@/data";
 import { PencilIcon } from "@heroicons/react/24/outline";
 
 
-export function Profile() {
+export function GlAccount() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [firstCategory, setFirstCategory] = useState("");
   const [secondCategory, setSecondCategory] = useState("");
@@ -292,4 +292,4 @@ export function Profile() {
   
 }
 
-export default Profile;
+export default GlAccount;

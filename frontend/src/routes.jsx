@@ -3,7 +3,7 @@ import {
   PaperClipIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/solid";
-import { Home, Profile, Tables } from "@/pages/dashboard";
+import { Home,GlAccount, Tables } from "@/pages/dashboard";
 import { SignIn, SignUp } from "@/pages/auth";
 import { PaperAirplaneIcon, ServerStackIcon, Square3Stack3DIcon } from "@heroicons/react/24/outline";
 import { element } from "prop-types";
@@ -26,7 +26,7 @@ export const routes = [
         icon: <UserCircleIcon {...icon} />,
         name: "GL Accounts",
         path: "/glaccount",
-        element: <Profile />,
+        element: <GlAccount/>,
       },
       {
         icon: <Square3Stack3DIcon {...icon} />,
